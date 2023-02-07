@@ -8,7 +8,8 @@ Hello World
 * dobavit elem 2
 * dobavit elem 3
 
-
+1. perviy elem numer spiska
+2. vtoroy elem
 
 YES! Funciona
 
