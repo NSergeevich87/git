@@ -1,8 +1,13 @@
+# Perviy file po kontrolu versiy
 Hello World   
+
+## Videlenie texta
 
 *Kurciv.*
 
-Начинаем знакомство с контролем версий.
+*Начинаем знакомство с контролем версий.*
+
+## Spisky
 
 * dobavit elem 1
 * dobavit elem 2
@@ -12,5 +17,7 @@ Hello World
 2. vtoroy elem
 
 YES! Funciona
+
+
 
 **tex polugirniy**
