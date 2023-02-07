@@ -4,6 +4,11 @@ Hello World
 
 Начинаем знакомство с контролем версий.
 
+* dobavit elem 1
+* dobavit elem 2
+* dobavit elem 3
+
+
 
 YES! Funciona
 
