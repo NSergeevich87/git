@@ -1,5 +1,5 @@
-#программа нахождения максимального и минимального индекса в массиве
-numbers = [9,9,3,5,9]
+#программа нахождения суммы между минимальным и максимальным значением в массиве
+numbers = [0,9,8,9,9]
 size = 5
 index = 0
 max = numbers[index]
@@ -19,9 +19,10 @@ while index < size :
 if index_max > index_min :
     index = index_min
     stop = index_max
-index = index_max
-stop = index_min
-while index <= stop :
-    sum = sum + numbers[index]
+elif index_max < index_min :
+    index = index_max
+    stop = index_min
+while index < stop-1 :
     index = index + 1
+    sum = sum + numbers[index]
 print(sum)
