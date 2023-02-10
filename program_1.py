@@ -6,6 +6,8 @@ max = numbers[index]
 min = numbers[index]
 index_max = 0
 index_min = 0
+sum = 0
+stop = 0
 while index < size :
     if numbers[index] >= max :
         max = numbers[index]
@@ -14,4 +16,12 @@ while index < size :
         min = numbers[index]
         index_min = index
     index = index + 1
-print(index_max)
+if index_max > index_min :
+    index = index_min
+    stop = index_max
+index = index_max
+stop = index_min
+while index <= stop :
+    sum = sum + numbers[index]
+    index = index + 1
+print(sum)
