@@ -1,9 +1,9 @@
 #программа нахождения максимального и минимального индекса в массиве
-numbers = [1,0,3,5,9]
+numbers = [9,9,3,5,9]
 size = 5
 index = 0
-max = 0
-min = 0
+max = numbers[index]
+min = numbers[index]
 index_max = 0
 index_min = 0
 while index < size :
